@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(to bottom, #3F436E, #636AAD);
+    display: inline-block;
+    width: 100%;
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 0;
+    position: absolute;
+    font-size: 40px;
+}
+
+nav li:nth-child(1) {
+    left: 65%;
+    top: 20px;
+    clear: both;
+}
+
+nav li:nth-child(2) {
+    left: 75%;
+    top: 20px;
+    clear: both;
+}
+
+nav li:nth-child(3) {
+    left: 85%;
+    top: 20px;
+    clear: both;
+}
+
+header a:hover {
+    color: #3F436E
+}
+
+
+body {
+    background: linear-gradient(to bottom, #636AAD, #8791ED);
+}
+
+#about {
+    background: linear-gradient(to bottom, #8791ED, #3F436E);
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 100%;
+}
+
+footer {
+    display: block;
+   
+}
+
+#intro {
+    height: 370px;
+    width: 800px;
+    padding-top: 25px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+img[src*='liberty'] {
+    height: 400px;
+    width: 600px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+    border: 3px solid white;
+    filter: drop-shadow(1px 3px 3px black); }
+
+.introduction {
+    display: block;
+    height: 600px;
+    width: 1500px;
+    padding-top: 50px;
+}
+
+#foodart {
+    height: 370px;
+    width: 800px;
+    padding: 0;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+img[src*='cuisine'] {
+    height: 400px;
+    width: 600px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+    border: 3px solid white;
+    filter: drop-shadow(1px 3px 3px black);
+}
+
+.food {
+    display: inline-block;
+    height: 600px;
+    width: 1500px;
+    padding-top: 50px;
+}
+
+ol li {
+    display: inline-block;
+    background-color: #3F436E;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ol li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol {
+    margin-left: 45%;
+}
+
